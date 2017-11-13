@@ -1,14 +1,14 @@
 var owl = $(".owl-carousel");
 
 owl.owlCarousel({
-	loop: true,
+	loop: false,
 	margin: 15,
 	nav: false,
 	dots: false,
 	singleItem: true,
 	autoplay: true,
 	smartSpeed: 1000,
-	autoplayTimeout: 1000,
+	autoplayTimeout: 5000,
 	scrollbarType: "progress",
 	responsive: {
 		0: {
