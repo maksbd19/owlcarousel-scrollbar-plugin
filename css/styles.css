@@ -1,0 +1,86 @@
+.item {
+    background: #ff3f4d;
+}
+
+.item h2 {
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.3125rem;
+}
+
+.owl-container {
+    width: 800px;
+    margin: 20px auto 0;
+    _border: 10px solid #f7f7f7;
+    _border-radius: 3px;
+    _box-shadow: 0 2px 18px -6px rgba(0, 0, 0, .45);
+}
+
+.owl-carousel .owl-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #fc0;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.owl-carousel .owl-dot.active {
+    background: #ff3f4d;
+}
+
+.owl-carousel .owl-dot.active:before {
+    content: "";
+    height: 10px;
+    background: rgba(247, 97, 139, 1);
+    background: -moz-linear-gradient(left, rgba(247, 97, 139, 1) 0%, rgba(42, 120, 247, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247, 97, 139, 1)), color-stop(100%, rgba(42, 120, 247, 1)));
+    background: -webkit-linear-gradient(left, rgba(247, 97, 139, 1) 0%, rgba(42, 120, 247, 1) 100%);
+    background: -o-linear-gradient(left, rgba(247, 97, 139, 1) 0%, rgba(42, 120, 247, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(247, 97, 139, 1) 0%, rgba(42, 120, 247, 1) 100%);
+    background: linear-gradient(to right, rgba(247, 97, 139, 1) 0%, rgba(42, 120, 247, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7618b', endColorstr='#2a78f7', GradientType=1);
+    position: absolute;
+    z-index: 99;
+    left: 0;
+}
+
+.owl-scrollbar {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 5px;
+    width: 100%;
+    background: #f1f1f1;
+    border: 1px solid #e4e4e4;
+    box-shadow: inset 0 0 10px -9px rgba(30, 30, 30, .4);
+    position: relative;
+}
+
+.owl-scrollbar .owl-scroll-handle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #e3fd54;
+    position: absolute;
+    top: -5px;
+    left: -1px;
+}
+
+.owl-scrollbar .owl-scroll-handle:hover {
+    transform: scale(2);
+    transition: transform .2s ease-in-out;
+}
+
+.owl-scrollbar .owl-scroll-progress {
+    background: #333;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
